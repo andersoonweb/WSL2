@@ -1,6 +1,7 @@
 # WSL2
 
 - [ ] Install Apache2
+- [ ] Install PHP
 - [ ] Configuração sites-available
 - [ ] Solução conexão phpmyadmin
 - [ ] Install PHPMyAdmin
