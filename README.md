@@ -16,6 +16,15 @@ FLUSH PRIVILEGES;
 sudo apt-get install php-mbstring php-gettext phpmyadmin
 
 
+## Comandos úteis
+
+service apache2 reload / start / stop
+
+mysql -u root -p
+CREATE DATABASE NomedoBanco
+CREATE USER 'nomedousuario'@'localhost' IDENTIFIED BY 'senha';
+GRANT ALL PRIVILEGES ON NomedoBanco.* TO 'nomedousuario' IDENTIFIED BY 'senha';
+
 
 ## Links úteis
 - [Lamp Dev Stack in Windows (WSL2)](https://creativelogic.biz/blog/lamp-dev-stack-in-windows)
